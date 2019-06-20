@@ -28,5 +28,14 @@ for img_url in img_urls:
 因此要把 m.imgur.com 換成 i.imgur.com，或把 imgur.com 補成 i.imgur.com
 2. 網址結尾不一定有 .jpg，為了順利下載，記得補上 .jpg。這些字串處理過程，就是資料淨化與清理的工作。
 
+
+split():用指定的分隔符號，對字串進行分割
+http://www.runoob.com/python/att-string-split.html
+
+
 startswith(): 檢查字串是否為指定字串開頭
 http://www.runoob.com/python/att-string-startswith.html
+
+
+replace("old","new",max):把字符串中的old替换成new，如果指定第三個參數max，則替換不超過max次
+http://www.runoob.com/python/att-string-replace.html
